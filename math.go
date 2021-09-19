@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println(Soma(10, 13))
-	fmt.Println(pot(3))
+	fmt.Println(Square(3))
 
 }
 func Soma(a int, b int) int {
@@ -12,6 +12,6 @@ func Soma(a int, b int) int {
 
 }
 
-func pot(a int) int {
+func Square(a int) int {
 	return a * a
 }
